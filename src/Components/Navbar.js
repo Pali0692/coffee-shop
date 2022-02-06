@@ -10,11 +10,11 @@ const Navbar = () => {
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                    <a class="nav-link" aria-current="page" href="#">Opción 1</a>
-                    <a class="nav-link" href="#">Opción 2</a>
-                    <a class="nav-link" href="#">Opción 3</a>
-                    </div>
+                        <div class="navbar-nav">
+                            <a class="nav-link" aria-current="page" href="#">Opción 1</a>
+                            <a class="nav-link" href="#">Opción 2</a>
+                            <a class="nav-link" href="#">Opción 3</a>
+                        </div>
                     </div>
                 </div>
             </nav>
