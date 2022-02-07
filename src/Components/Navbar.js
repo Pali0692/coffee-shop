@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import CartWidget from './CartWidget';
 
 const Navbar = () => {
     return (
@@ -15,6 +16,9 @@ const Navbar = () => {
                             <a class="nav-link" href="#">Opción 2</a>
                             <a class="nav-link" href="#">Opción 3</a>
                         </div>
+                    </div>
+                    <div>
+                        <CartWidget/>
                     </div>
                 </div>
             </nav>
