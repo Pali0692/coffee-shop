@@ -1,4 +1,5 @@
 import './App.css';
+import ItemCount from './Components/ItemCount';
 import ItemListContainer from './Components/ItemListContainer';
 import Navbar from './Components/Navbar';
 
@@ -7,8 +8,9 @@ function App() {
     <div>
       <Navbar/>
       <ItemListContainer/>
+      <ItemCount/>
     </div>
-    
+
   );
 }
 
