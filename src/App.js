@@ -6,9 +6,9 @@ import Navbar from './Components/Navbar';
 function App() {
   return (
     <div>
-      <Navbar/>
-      <ItemListContainer/>
-      <ItemCount/>
+      <Navbar />
+      <ItemListContainer saludo="Catalogo" />
+      <ItemCount />
     </div>
 
   );

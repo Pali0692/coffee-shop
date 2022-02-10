@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 
 const ItemCount = () => {
@@ -19,8 +20,8 @@ const ItemCount = () => {
         <>
             <div>
             <button type="button" class="btn btn-outline-secondary" onClick={decrease}>-</button>
-            <p>{cantidad}</p>
             <button type="button" class="btn btn-outline-secondary" onClick={increment}>+</button>
+            <p>{cantidad}</p>
             <button type="button" class="btn btn-outline-secondary">Agregar al carrito</button>
             </div>
         </>
