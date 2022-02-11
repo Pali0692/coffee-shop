@@ -4,6 +4,7 @@ const ItemListContainer = (props) =>{
         <>
             <div>
                 <p> {props.saludo} </p>
+                <itemList />
             </div>
         </>
     )
