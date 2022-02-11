@@ -8,7 +8,7 @@ function App() {
     <div>
       <Navbar />
       <ItemListContainer saludo="Catalogo" />
-      <ItemCount />
+      <ItemCount stock={5} initial={1} addon={0}/>
     </div>
 
   );
